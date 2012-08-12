@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0A143D15C6A20B00A0764C /* Alarms.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A143C15C6A20B00A0764C /* Alarms.m */; };
+		4A17245215D77437005F1431 /* AlarmJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A17245115D77437005F1431 /* AlarmJsonUtil.m */; };
+		4A2BB17315A9505F00C39B2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BB17215A9505F00C39B2C /* UIKit.framework */; };
+		4A2BB17515A9505F00C39B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BB17415A9505F00C39B2C /* Foundation.framework */; };
+		4A2BB17715A9505F00C39B2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BB17615A9505F00C39B2C /* CoreGraphics.framework */; };
+		4A2BB17D15A9505F00C39B2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A2BB17B15A9505F00C39B2C /* InfoPlist.strings */; };
+		4A2BB17F15A9505F00C39B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BB17E15A9505F00C39B2C /* main.m */; };
+		4A2BB18315A9505F00C39B2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BB18215A9505F00C39B2C /* AppDelegate.m */; };
+		4A2BB18615A9505F00C39B2C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2BB18415A9505F00C39B2C /* MainStoryboard.storyboard */; };
+		4A2BB18915A9505F00C39B2C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BB18815A9505F00C39B2C /* FirstViewController.m */; };
+		4A2BB18B15A9505F00C39B2C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2BB18A15A9505F00C39B2C /* first.png */; };
+		4A2BB18D15A9505F00C39B2C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2BB18C15A9505F00C39B2C /* first@2x.png */; };
+		4A2BB19015A9505F00C39B2C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BB18F15A9505F00C39B2C /* SecondViewController.m */; };
+		4A2BB19215A9505F00C39B2C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2BB19115A9505F00C39B2C /* second.png */; };
+		4A2BB19415A9505F00C39B2C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2BB19315A9505F00C39B2C /* second@2x.png */; };
+		4A2BB19C15A9506000C39B2C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BB19B15A9506000C39B2C /* SenTestingKit.framework */; };
+		4A2BB19D15A9506000C39B2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BB17215A9505F00C39B2C /* UIKit.framework */; };
+		4A2BB19E15A9506000C39B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BB17415A9505F00C39B2C /* Foundation.framework */; };
+		4A2BB1A915A9506000C39B2C /* DulgiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BB1A815A9506000C39B2C /* DulgiTests.m */; };
+		4A8B5E1415CD92F6006F8F80 /* liby2util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8B5E1115CD92F6006F8F80 /* liby2util.a */; };
+		4A947E8F15C516A60081628D /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A947E8E15C516A60081628D /* Alarm.m */; };
+		4AB6A58D15C7F51A00CF2988 /* AlarmXmlUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6A58C15C7F51A00CF2988 /* AlarmXmlUtil.m */; };
+		4AB6A58F15C7FAF300CF2988 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6A58E15C7FAF300CF2988 /* libxml2.2.7.3.dylib */; };
+		4ACBA32115BED11C00C2998B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA32015BED11C00C2998B /* AVFoundation.framework */; };
+		4ACBA32315BED12400C2998B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA32215BED12400C2998B /* AudioToolbox.framework */; };
+		4AD4148815B286E900F84726 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD4148715B286E900F84726 /* ToDoItem.m */; };
+		4AD4148D15B2998900F84726 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD4148C15B2998900F84726 /* DateUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A2BB19F15A9506000C39B2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A2BB16515A9505F00C39B2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2BB16D15A9505F00C39B2C;
+			remoteInfo = DeviceControlTest;
+		};
+		4A8B5E1015CD92F6006F8F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8B5E0B15CD92F6006F8F80 /* y2util.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4ACBA2D615BECE1200C2998B;
+			remoteInfo = y2util;
+		};
+		4A8B5E1215CD92F6006F8F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8B5E0B15CD92F6006F8F80 /* y2util.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4ACBA2E615BECE1200C2998B;
+			remoteInfo = y2utilTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0A143B15C6A20B00A0764C /* Alarms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alarms.h; path = model/Alarms.h; sourceTree = "<group>"; };
+		4A0A143C15C6A20B00A0764C /* Alarms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alarms.m; path = model/Alarms.m; sourceTree = "<group>"; };
+		4A17245015D77437005F1431 /* AlarmJsonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmJsonUtil.h; path = util/AlarmJsonUtil.h; sourceTree = "<group>"; };
+		4A17245115D77437005F1431 /* AlarmJsonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmJsonUtil.m; path = util/AlarmJsonUtil.m; sourceTree = "<group>"; };
+		4A2BB16E15A9505F00C39B2C /* Dulgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dulgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BB17215A9505F00C39B2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A2BB17415A9505F00C39B2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A2BB17615A9505F00C39B2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A2BB17A15A9505F00C39B2C /* Dulgi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dulgi-Info.plist"; sourceTree = "<group>"; };
+		4A2BB17C15A9505F00C39B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A2BB17E15A9505F00C39B2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A2BB18015A9505F00C39B2C /* Dulgi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dulgi-Prefix.pch"; sourceTree = "<group>"; };
+		4A2BB18115A9505F00C39B2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A2BB18215A9505F00C39B2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A2BB18515A9505F00C39B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4A2BB18715A9505F00C39B2C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4A2BB18815A9505F00C39B2C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4A2BB18A15A9505F00C39B2C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4A2BB18C15A9505F00C39B2C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4A2BB18E15A9505F00C39B2C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4A2BB18F15A9505F00C39B2C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4A2BB19115A9505F00C39B2C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4A2BB19315A9505F00C39B2C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4A2BB19A15A9506000C39B2C /* DulgiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DulgiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2BB19B15A9506000C39B2C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A2BB1A315A9506000C39B2C /* DulgiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DulgiTests-Info.plist"; sourceTree = "<group>"; };
+		4A2BB1A515A9506000C39B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A2BB1A715A9506000C39B2C /* DulgiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DulgiTests.h; sourceTree = "<group>"; };
+		4A2BB1A815A9506000C39B2C /* DulgiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DulgiTests.m; sourceTree = "<group>"; };
+		4A8B5E0B15CD92F6006F8F80 /* y2util.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = y2util.xcodeproj; path = ../utils/y2util.xcodeproj; sourceTree = "<group>"; };
+		4A947E8D15C516A60081628D /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alarm.h; path = model/Alarm.h; sourceTree = "<group>"; };
+		4A947E8E15C516A60081628D /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alarm.m; path = model/Alarm.m; sourceTree = "<group>"; };
+		4AB6A58B15C7F51A00CF2988 /* AlarmXmlUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmXmlUtil.h; path = util/AlarmXmlUtil.h; sourceTree = "<group>"; };
+		4AB6A58C15C7F51A00CF2988 /* AlarmXmlUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmXmlUtil.m; path = util/AlarmXmlUtil.m; sourceTree = "<group>"; };
+		4AB6A58E15C7FAF300CF2988 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		4ACBA32015BED11C00C2998B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4ACBA32215BED12400C2998B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4AD4148615B286E900F84726 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoItem.h; path = model/ToDoItem.h; sourceTree = "<group>"; };
+		4AD4148715B286E900F84726 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoItem.m; path = model/ToDoItem.m; sourceTree = "<group>"; };
+		4AD4148B15B2998900F84726 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateUtil.h; path = util/DateUtil.h; sourceTree = "<group>"; };
+		4AD4148C15B2998900F84726 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateUtil.m; path = util/DateUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2BB16B15A9505F00C39B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8B5E1415CD92F6006F8F80 /* liby2util.a in Frameworks */,
+				4AB6A58F15C7FAF300CF2988 /* libxml2.2.7.3.dylib in Frameworks */,
+				4ACBA32315BED12400C2998B /* AudioToolbox.framework in Frameworks */,
+				4ACBA32115BED11C00C2998B /* AVFoundation.framework in Frameworks */,
+				4A2BB17315A9505F00C39B2C /* UIKit.framework in Frameworks */,
+				4A2BB17515A9505F00C39B2C /* Foundation.framework in Frameworks */,
+				4A2BB17715A9505F00C39B2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BB19615A9506000C39B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BB19C15A9506000C39B2C /* SenTestingKit.framework in Frameworks */,
+				4A2BB19D15A9506000C39B2C /* UIKit.framework in Frameworks */,
+				4A2BB19E15A9506000C39B2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A2BB16315A9505F00C39B2C = {
+			isa = PBXGroup;
+			children = (
+				4A2BB1A115A9506000C39B2C /* DulgiTests */,
+				4A2BB17815A9505F00C39B2C /* Dulgi */,
+				4A2BB17115A9505F00C39B2C /* Frameworks */,
+				4A2BB16F15A9505F00C39B2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A2BB16F15A9505F00C39B2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BB16E15A9505F00C39B2C /* Dulgi.app */,
+				4A2BB19A15A9506000C39B2C /* DulgiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A2BB17115A9505F00C39B2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8B5E0B15CD92F6006F8F80 /* y2util.xcodeproj */,
+				4AB6A58E15C7FAF300CF2988 /* libxml2.2.7.3.dylib */,
+				4ACBA32215BED12400C2998B /* AudioToolbox.framework */,
+				4ACBA32015BED11C00C2998B /* AVFoundation.framework */,
+				4A2BB17215A9505F00C39B2C /* UIKit.framework */,
+				4A2BB17415A9505F00C39B2C /* Foundation.framework */,
+				4A2BB17615A9505F00C39B2C /* CoreGraphics.framework */,
+				4A2BB19B15A9506000C39B2C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A2BB17815A9505F00C39B2C /* Dulgi */ = {
+			isa = PBXGroup;
+			children = (
+				4AD4148415B286B100F84726 /* model */,
+				4AD4148A15B2994500F84726 /* util */,
+				4A2BB18115A9505F00C39B2C /* AppDelegate.h */,
+				4A2BB18215A9505F00C39B2C /* AppDelegate.m */,
+				4A2BB18415A9505F00C39B2C /* MainStoryboard.storyboard */,
+				4A2BB18715A9505F00C39B2C /* FirstViewController.h */,
+				4A2BB18815A9505F00C39B2C /* FirstViewController.m */,
+				4A2BB18A15A9505F00C39B2C /* first.png */,
+				4A2BB18C15A9505F00C39B2C /* first@2x.png */,
+				4A2BB18E15A9505F00C39B2C /* SecondViewController.h */,
+				4A2BB18F15A9505F00C39B2C /* SecondViewController.m */,
+				4A2BB19115A9505F00C39B2C /* second.png */,
+				4A2BB19315A9505F00C39B2C /* second@2x.png */,
+				4A2BB17915A9505F00C39B2C /* Supporting Files */,
+			);
+			path = Dulgi;
+			sourceTree = "<group>";
+		};
+		4A2BB17915A9505F00C39B2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BB17A15A9505F00C39B2C /* Dulgi-Info.plist */,
+				4A2BB17B15A9505F00C39B2C /* InfoPlist.strings */,
+				4A2BB17E15A9505F00C39B2C /* main.m */,
+				4A2BB18015A9505F00C39B2C /* Dulgi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A2BB1A115A9506000C39B2C /* DulgiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BB1A715A9506000C39B2C /* DulgiTests.h */,
+				4A2BB1A815A9506000C39B2C /* DulgiTests.m */,
+				4A2BB1A215A9506000C39B2C /* Supporting Files */,
+			);
+			path = DulgiTests;
+			sourceTree = "<group>";
+		};
+		4A2BB1A215A9506000C39B2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A2BB1A315A9506000C39B2C /* DulgiTests-Info.plist */,
+				4A2BB1A415A9506000C39B2C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A8B5E0C15CD92F6006F8F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A8B5E1115CD92F6006F8F80 /* liby2util.a */,
+				4A8B5E1315CD92F6006F8F80 /* y2utilTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AD4148415B286B100F84726 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4AD4148615B286E900F84726 /* ToDoItem.h */,
+				4AD4148715B286E900F84726 /* ToDoItem.m */,
+				4A947E8D15C516A60081628D /* Alarm.h */,
+				4A947E8E15C516A60081628D /* Alarm.m */,
+				4A0A143B15C6A20B00A0764C /* Alarms.h */,
+				4A0A143C15C6A20B00A0764C /* Alarms.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		4AD4148A15B2994500F84726 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				4AD4148B15B2998900F84726 /* DateUtil.h */,
+				4AD4148C15B2998900F84726 /* DateUtil.m */,
+				4AB6A58B15C7F51A00CF2988 /* AlarmXmlUtil.h */,
+				4AB6A58C15C7F51A00CF2988 /* AlarmXmlUtil.m */,
+				4A17245015D77437005F1431 /* AlarmJsonUtil.h */,
+				4A17245115D77437005F1431 /* AlarmJsonUtil.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A2BB16D15A9505F00C39B2C /* Dulgi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BB1AC15A9506000C39B2C /* Build configuration list for PBXNativeTarget "Dulgi" */;
+			buildPhases = (
+				4A2BB16A15A9505F00C39B2C /* Sources */,
+				4A2BB16B15A9505F00C39B2C /* Frameworks */,
+				4A2BB16C15A9505F00C39B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dulgi;
+			productName = DeviceControlTest;
+			productReference = 4A2BB16E15A9505F00C39B2C /* Dulgi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A2BB19915A9506000C39B2C /* DulgiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2BB1AF15A9506000C39B2C /* Build configuration list for PBXNativeTarget "DulgiTests" */;
+			buildPhases = (
+				4A2BB19515A9506000C39B2C /* Sources */,
+				4A2BB19615A9506000C39B2C /* Frameworks */,
+				4A2BB19715A9506000C39B2C /* Resources */,
+				4A2BB19815A9506000C39B2C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A2BB1A015A9506000C39B2C /* PBXTargetDependency */,
+			);
+			name = DulgiTests;
+			productName = DeviceControlTestTests;
+			productReference = 4A2BB19A15A9506000C39B2C /* DulgiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A2BB16515A9505F00C39B2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = y2;
+			};
+			buildConfigurationList = 4A2BB16815A9505F00C39B2C /* Build configuration list for PBXProject "Dulgi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A2BB16315A9505F00C39B2C;
+			productRefGroup = 4A2BB16F15A9505F00C39B2C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4A8B5E0C15CD92F6006F8F80 /* Products */;
+					ProjectRef = 4A8B5E0B15CD92F6006F8F80 /* y2util.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4A2BB16D15A9505F00C39B2C /* Dulgi */,
+				4A2BB19915A9506000C39B2C /* DulgiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4A8B5E1115CD92F6006F8F80 /* liby2util.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liby2util.a;
+			remoteRef = 4A8B5E1015CD92F6006F8F80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4A8B5E1315CD92F6006F8F80 /* y2utilTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = y2utilTests.octest;
+			remoteRef = 4A8B5E1215CD92F6006F8F80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2BB16C15A9505F00C39B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BB17D15A9505F00C39B2C /* InfoPlist.strings in Resources */,
+				4A2BB18615A9505F00C39B2C /* MainStoryboard.storyboard in Resources */,
+				4A2BB18B15A9505F00C39B2C /* first.png in Resources */,
+				4A2BB18D15A9505F00C39B2C /* first@2x.png in Resources */,
+				4A2BB19215A9505F00C39B2C /* second.png in Resources */,
+				4A2BB19415A9505F00C39B2C /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BB19715A9506000C39B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A2BB19815A9506000C39B2C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A2BB16A15A9505F00C39B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BB17F15A9505F00C39B2C /* main.m in Sources */,
+				4A2BB18315A9505F00C39B2C /* AppDelegate.m in Sources */,
+				4A2BB18915A9505F00C39B2C /* FirstViewController.m in Sources */,
+				4A2BB19015A9505F00C39B2C /* SecondViewController.m in Sources */,
+				4AD4148815B286E900F84726 /* ToDoItem.m in Sources */,
+				4AD4148D15B2998900F84726 /* DateUtil.m in Sources */,
+				4A947E8F15C516A60081628D /* Alarm.m in Sources */,
+				4A0A143D15C6A20B00A0764C /* Alarms.m in Sources */,
+				4AB6A58D15C7F51A00CF2988 /* AlarmXmlUtil.m in Sources */,
+				4A17245215D77437005F1431 /* AlarmJsonUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2BB19515A9506000C39B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BB1A915A9506000C39B2C /* DulgiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A2BB1A015A9506000C39B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A2BB16D15A9505F00C39B2C /* Dulgi */;
+			targetProxy = 4A2BB19F15A9506000C39B2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A2BB17B15A9505F00C39B2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BB17C15A9505F00C39B2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A2BB18415A9505F00C39B2C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BB18515A9505F00C39B2C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		4A2BB1A415A9506000C39B2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2BB1A515A9506000C39B2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A2BB1AA15A9506000C39B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 병진 유 (V77PS99DLT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../utils/utils,
+					"${SDK_DIR}/usr/include/libxml2",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9EBC6FB4-07AF-4D7D-8460-EA294A5455C5";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A2BB1AB15A9506000C39B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 병진 유 (V77PS99DLT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../utils/utils,
+					"${SDK_DIR}/usr/include/libxml2",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9EBC6FB4-07AF-4D7D-8460-EA294A5455C5";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A2BB1AD15A9506000C39B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dulgi/Dulgi-Prefix.pch";
+				INFOPLIST_FILE = "Dulgi/Dulgi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/utils-dbzwsunmbnpjheeajanqzxijipqi/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = Dulgi;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A2BB1AE15A9506000C39B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dulgi/Dulgi-Prefix.pch";
+				INFOPLIST_FILE = "Dulgi/Dulgi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/utils-dbzwsunmbnpjheeajanqzxijipqi/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = Dulgi;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A2BB1B015A9506000C39B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dulgi.app/Dulgi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dulgi/Dulgi-Prefix.pch";
+				INFOPLIST_FILE = "DulgiTests/DulgiTests-Info.plist";
+				PRODUCT_NAME = DulgiTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4A2BB1B115A9506000C39B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dulgi.app/Dulgi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dulgi/Dulgi-Prefix.pch";
+				INFOPLIST_FILE = "DulgiTests/DulgiTests-Info.plist";
+				PRODUCT_NAME = DulgiTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2BB16815A9505F00C39B2C /* Build configuration list for PBXProject "Dulgi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BB1AA15A9506000C39B2C /* Debug */,
+				4A2BB1AB15A9506000C39B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BB1AC15A9506000C39B2C /* Build configuration list for PBXNativeTarget "Dulgi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BB1AD15A9506000C39B2C /* Debug */,
+				4A2BB1AE15A9506000C39B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2BB1AF15A9506000C39B2C /* Build configuration list for PBXNativeTarget "DulgiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2BB1B015A9506000C39B2C /* Debug */,
+				4A2BB1B115A9506000C39B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A2BB16515A9505F00C39B2C /* Project object */;
+}
