@@ -9,6 +9,7 @@
 #import "DulgiTests.h"
 #import "AlarmXmlUtil.h"
 #import "Alarm.h"
+#import "AlarmJsonUtil.h"
 
 @implementation DulgiTests
 
@@ -37,6 +38,11 @@
     NSMutableArray *alarms = [[NSMutableArray alloc]init];
     [alarms addObject:alarm];
     [xmlTest writeAlarm:alarms];
+    
+}
+
+-(void)testAlarmJsonUtil {
+    //AlarmJsonUtil *util = [[AlarmJsonUtil alloc]init];
     
 }
 

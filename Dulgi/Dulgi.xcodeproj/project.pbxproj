@@ -26,6 +26,8 @@
 		4A2BB19D15A9506000C39B2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BB17215A9505F00C39B2C /* UIKit.framework */; };
 		4A2BB19E15A9506000C39B2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2BB17415A9505F00C39B2C /* Foundation.framework */; };
 		4A2BB1A915A9506000C39B2C /* DulgiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2BB1A815A9506000C39B2C /* DulgiTests.m */; };
+		4A48D23715E9ED64004C728D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48D23615E9ED64004C728D /* MainTableViewController.m */; };
+		4A48D23D15E9FB2E004C728D /* AlarmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48D23C15E9FB2E004C728D /* AlarmTableViewCell.m */; };
 		4A8B5E1415CD92F6006F8F80 /* liby2util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8B5E1115CD92F6006F8F80 /* liby2util.a */; };
 		4A947E8F15C516A60081628D /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A947E8E15C516A60081628D /* Alarm.m */; };
 		4AB6A58D15C7F51A00CF2988 /* AlarmXmlUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6A58C15C7F51A00CF2988 /* AlarmXmlUtil.m */; };
@@ -90,6 +92,10 @@
 		4A2BB1A515A9506000C39B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A2BB1A715A9506000C39B2C /* DulgiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DulgiTests.h; sourceTree = "<group>"; };
 		4A2BB1A815A9506000C39B2C /* DulgiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DulgiTests.m; sourceTree = "<group>"; };
+		4A48D23515E9ED64004C728D /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		4A48D23615E9ED64004C728D /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		4A48D23B15E9FB2E004C728D /* AlarmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmTableViewCell.h; sourceTree = "<group>"; };
+		4A48D23C15E9FB2E004C728D /* AlarmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmTableViewCell.m; sourceTree = "<group>"; };
 		4A8B5E0B15CD92F6006F8F80 /* y2util.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = y2util.xcodeproj; path = ../utils/y2util.xcodeproj; sourceTree = "<group>"; };
 		4A947E8D15C516A60081628D /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alarm.h; path = model/Alarm.h; sourceTree = "<group>"; };
 		4A947E8E15C516A60081628D /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alarm.m; path = model/Alarm.m; sourceTree = "<group>"; };
@@ -174,6 +180,8 @@
 				4A2BB18115A9505F00C39B2C /* AppDelegate.h */,
 				4A2BB18215A9505F00C39B2C /* AppDelegate.m */,
 				4A2BB18415A9505F00C39B2C /* MainStoryboard.storyboard */,
+				4A48D23515E9ED64004C728D /* MainTableViewController.h */,
+				4A48D23615E9ED64004C728D /* MainTableViewController.m */,
 				4A2BB18715A9505F00C39B2C /* FirstViewController.h */,
 				4A2BB18815A9505F00C39B2C /* FirstViewController.m */,
 				4A2BB18A15A9505F00C39B2C /* first.png */,
@@ -183,6 +191,8 @@
 				4A2BB19115A9505F00C39B2C /* second.png */,
 				4A2BB19315A9505F00C39B2C /* second@2x.png */,
 				4A2BB17915A9505F00C39B2C /* Supporting Files */,
+				4A48D23B15E9FB2E004C728D /* AlarmTableViewCell.h */,
+				4A48D23C15E9FB2E004C728D /* AlarmTableViewCell.m */,
 			);
 			path = Dulgi;
 			sourceTree = "<group>";
@@ -395,6 +405,8 @@
 				4A0A143D15C6A20B00A0764C /* Alarms.m in Sources */,
 				4AB6A58D15C7F51A00CF2988 /* AlarmXmlUtil.m in Sources */,
 				4A17245215D77437005F1431 /* AlarmJsonUtil.m in Sources */,
+				4A48D23715E9ED64004C728D /* MainTableViewController.m in Sources */,
+				4A48D23D15E9FB2E004C728D /* AlarmTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

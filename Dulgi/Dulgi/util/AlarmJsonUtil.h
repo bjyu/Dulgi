@@ -10,4 +10,8 @@
 
 @interface AlarmJsonUtil : NSObject
 
+-(void)loadAlarms;
+-(void)saveAlarms;
+-(NSDictionary*)findAlarmById:(NSString*)alarmId;
+
 @end
